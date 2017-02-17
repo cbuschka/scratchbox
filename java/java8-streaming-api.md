@@ -22,6 +22,32 @@ public Map<String, List<Article>> groupByAuthor() {
 }    
 ```
 
+## collect and exatcly single element
+``` 
+public static <T> Collector<T, ?, T> singletonCollector() {
+    return Collectors.collectingAndThen(
+            Collectors.toList(),
+            list -> {
+                if (list.size() != 1) {
+                    throw new IllegalStateException();
+                }
+                return list.get(0);
+            }
+    );
+}
+```
+
+## group with count per group
+
+https://www.mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/
+
+```
+Map<Double, Long> groupByLevel = studentClasses.stream().collect(
+            Collectors.groupingBy(StudentClass::getLevel,
+                    Collectors.counting()));
+```
+
+## flat map (map and combine streams)
 ```
 public Set<String> getDistinctTags() {  
     return articles.stream()
