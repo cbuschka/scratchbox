@@ -21,6 +21,7 @@ https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000140204-Set
 https://st-g.de/2016/08/jenkins-pipeline-autocompletion-in-intellij
 
 https://github.com/oliverlockwood/jenkinsfile-idea-plugin
+https://stackoverflow.com/questions/41062514/use-gdsl-file-in-a-java-project-in-intellij
 
 ## Run jenkins in docker
 docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
