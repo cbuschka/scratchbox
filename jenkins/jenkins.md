@@ -8,9 +8,12 @@ https://wilsonmar.github.io/jenkins2-pipeline/
 https://jenkins.io/doc/book/pipeline/shared-libraries/
 https://github.com/jenkinsci/workflow-cps-global-lib-plugin/blob/master/README.md
 
+https://github.com/fabric8io/fabric8-jenkinsfile-library
+https://github.com/fabric8io/fabric8-pipeline-library
+
 https://github.com/jenkinsci/docker
 
-https://github.com/fabric8io/jenkins-pipeline-library
+https://stackoverflow.com/questions/40568225/configure-jenkins-global-pipeline-library-via-groovy
 https://stackoverflow.com/questions/38695237/create-resusable-jenkins-pipeline-script
 
 ## IDEA support
