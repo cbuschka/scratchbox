@@ -20,6 +20,8 @@ https://stackoverflow.com/questions/38695237/create-resusable-jenkins-pipeline-s
 https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000140204-Setting-up-Groovy-completion-for-Jenkins-Pipelines-consumers
 https://st-g.de/2016/08/jenkins-pipeline-autocompletion-in-intellij
 
+https://github.com/oliverlockwood/jenkinsfile-idea-plugin
+
 ## Run jenkins in docker
 docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 
